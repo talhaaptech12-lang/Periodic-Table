@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Creepster&family=Great+Vibes&family=Manufacturing+Consent&family=Michroma&family=Orbitron:wght@400..900&family=Reddit+Mono:wght@200..900&family=Shadows+Into+Light&display=swap');
+
+
+
+* {
+    /* padding: 0px; */
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+
+#heading {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: chocolate;
+    font-family: "Michroma", sans-serif;
+    text-decoration: 5px underline yellowgreen;
+    
+}
+
+.main {
+    /* border: 1px solid black; */
+    /* height: 97vh; */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.lines {
+    /* border: 1px solid black; */
+    height: 270px;
+    width: 75px;
+}
+
+.boxes {
+    border: 1px solid black;
+    height: 65px;
+    text-align: center;
+    color: white;
+}
+
+.two {
+    margin-top: 65px;
+}
+
+.three {
+    margin-top: 195px;
+}
+
+.main-text {
+    font-size: 13px;
+}
+
+.alkali {
+    background-color: #244d57;
+}
+
+.twoline {
+    background-color: #622e39;
+}
+
+.Transition {
+    background-color: #433c65;
+}
+
+.Metalloids {
+    background-color: #523e1b;
+}
+
+
+.unknown {
+    background-color: #46474c;
+}
+
+.noble {
+    background-color: #623842;
+}
+
+.reactive {
+    background-color: #2a4165;
+}
+
+
+.posttransition{
+background-color: #2f4d47;
+}
+
+.Lanthanides {
+    background-color: #004a77;
+}
+
+.Actinides {
+    background-color: #613b28;
+}
+
+.second-main {
+    /* border: 1px solid black; */
+    height: 130px;
+    width: 66.5%;
+    margin-left: 342px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.mainrow{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 65px;
+    display: flex;
+    text-align: center;
+}
+.rows{
+    border: 1px solid black;
+    width: 76px;  
+    height: 65px;
+}
+.textcompress{
+    font-size: small;
+}
