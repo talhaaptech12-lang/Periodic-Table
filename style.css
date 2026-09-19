@@ -23,45 +23,44 @@ body {
     font-size: 50px;
     text-shadow: 0px 5px 15px rgba(255, 145, 0, 0.76);
 }
-/* main div Styling */
+/* Main div styling */
 .main {
-
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
-
 }
-/* columns with boxes */
+
+/* Columns containing the element boxes */
 .columns {
     /* border: 1px solid red; */
     height: 262px;
     width: 75px;
 }
 
-
-/* each box styling */
+/* Styling for each element box */
 .boxes {
     border: 1px solid white;
     height: 65px;
     text-align: center;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
 
 .boxes:hover {
     transform: scale(1.5);
 }
-/* give 2nd column marging from the top */
+
+/* Add top margin to the second column */
 .two {
     margin-top: 65px;
 }
 
-/*  give margin to the 10 columns*/
+/* Add top margin to the third column */
 .three {
     margin-top: 195px;
 }
-/* now bg color according to the groups name */
+
+/* Background colors according to element groups */
 .alkali {
     background-color: #244d57;
 }
@@ -77,6 +76,7 @@ body {
 .Metalloids {
     background-color: #523e1b;
 }
+
 .unknown {
     background-color: #46474c;
 }
@@ -100,30 +100,40 @@ body {
 .Actinides {
     background-color: #613b28;
 }
-/* maiin container for the bottom rows */
-.main-row{
+
+/* Main container for the bottom two rows */
+.main-row {
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     margin-left: 23.8%;
     margin-top: 50px;
 }
-.row1{
+
+/* First row of the bottom section */
+.row1 {
     display: flex;
 }
-.row2{
+
+/* Second row of the bottom section */
+.row2 {
     display: flex;
 }
-.box{
+
+/* Styling for boxes in the bottom two rows */
+.box {
     border: 1px solid white;
     width: 75px;
-    height: 65;
+    height: 65px;
     text-align: center;
     color: white;
 }
-.box:hover{
+
+.box:hover {
     transform: scale(1.5);
 }
+
+/* Reduce font size for longer text */
 .textcompress {
     font-size: small;
 }
