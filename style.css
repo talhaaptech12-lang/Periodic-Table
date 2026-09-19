@@ -3,9 +3,16 @@
 
 
 * {
-    /* padding: 0px; */
-    /* margin: 0px; */
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #heading {
@@ -13,48 +20,53 @@
     text-align: center;
     color: chocolate;
     font-family: "Michroma", sans-serif;
-    text-decoration: 5px underline yellowgreen;
-    
+    font-size: 50px;
+    text-shadow: 0px 5px 15px rgba(255, 145, 0, 0.76);
 }
-
+/* main div Styling */
 .main {
+
     /* border: 1px solid black; */
-    /* height: 97vh; */
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
-}
 
-.lines {
-    /* border: 1px solid black; */
-    height: 270px;
+}
+/* columns with boxes */
+.columns {
+    /* border: 1px solid red; */
+    height: 262px;
     width: 75px;
 }
 
+
+/* each box styling */
 .boxes {
-    border: 1px solid black;
+    border: 1px solid white;
     height: 65px;
     text-align: center;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
+.boxes:hover {
+    transform: scale(1.5);
+}
+/* give 2nd column marging from the top */
 .two {
     margin-top: 65px;
 }
 
+/*  give margin to the 10 columns*/
 .three {
     margin-top: 195px;
 }
-
-.main-text {
-    font-size: 13px;
-}
-
+/* now bg color according to the groups name */
 .alkali {
     background-color: #244d57;
 }
 
-.twoline {
+.alkaline {
     background-color: #622e39;
 }
 
@@ -65,8 +77,6 @@
 .Metalloids {
     background-color: #523e1b;
 }
-
-
 .unknown {
     background-color: #46474c;
 }
@@ -79,9 +89,8 @@
     background-color: #2a4165;
 }
 
-
-.posttransition{
-background-color: #2f4d47;
+.posttransition {
+    background-color: #2f4d47;
 }
 
 .Lanthanides {
@@ -91,29 +100,30 @@ background-color: #2f4d47;
 .Actinides {
     background-color: #613b28;
 }
-
-.second-main {
+/* maiin container for the bottom rows */
+.main-row{
     /* border: 1px solid black; */
-    height: 130px;
-    width: 66.5%;
-    margin-left: 342px;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    margin-left: 23.8%;
+    margin-top: 50px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.box{
+    border: 1px solid white;
+    width: 75px;
+    height: 65;
+    text-align: center;
     color: white;
 }
-.mainrow{
-    /* border: 1px solid black; */
-    width: 100%;
-    height: 65px;
-    display: flex;
-    text-align: center;
+.box:hover{
+    transform: scale(1.5);
 }
-.rows{
-    border: 1px solid black;
-    width: 76px;  
-    height: 65px;
-}
-.textcompress{
+.textcompress {
     font-size: small;
 }
